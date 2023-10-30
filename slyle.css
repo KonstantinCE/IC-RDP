@@ -13,18 +13,21 @@ a {
     color: inherit;
 }
 body {
-    width: 1440px;
-    height: auto;
+    max-width: 1440px;
     margin: 0 auto;
 }
-
+/*.container {
+    max-width: 1440px;
+    margin: 0 auto;
+   }
+*/
 .header {
     display: flex;
     width: 1440px;
     height: 83px;
     justify-content: center;
     background-color: #131313;
-}
+    }
     .header__nav {
         display: flex;
         justify-content: space-between;
@@ -68,6 +71,9 @@ body {
         background: #E3B873;
         box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.20);
         cursor: pointer;
+    }
+    .header__nav_tel_button:hover {
+        box-shadow: 0 0 2px 2px white, 0 0 4px 6px rgba(227, 184, 115, 0.8);
     }
 h1 {
     font-family: 'Yeseva One', serif;
@@ -136,9 +142,15 @@ h1 {
         background: #E3B873;
         box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.30);
     }
+    .main__button1:hover {
+        box-shadow: 0 0 2px 2px white, 0 0 4px 6px rgba(227, 184, 115, 0.8);
+    }
     .main__button2 {
         border: 1px solid #FFF;
         background-color: transparent;
+    }
+    .main__button2:hover {
+        box-shadow: 0 0 2px 2px rgb(227, 184, 115), 0 0 4px 6px rgba(255, 255, 255, 0.8);
     }
 .main__section2 {
     width: 1440px;
@@ -212,6 +224,7 @@ h1 {
     }
     .main__svg {
         margin-top: 45px;
+               
     }
 .main__section3 {
     display: flex;
@@ -259,7 +272,7 @@ h1 {
         background-color: rgba(0, 0, 0, 0.80);
         cursor: pointer;
     }
-    .main__section3_div {
+.main__section3_div {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -339,6 +352,9 @@ h1 {
         box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.30);
         cursor: pointer;
     }
+    .main__section3_form_div_button:hover {
+        box-shadow: 0 0 2px 2px white, 0 0 4px 6px rgba(227, 184, 115, 0.8);
+    }
     .main__section3_form_box_checkbox {
         width: 18px;
         height: 18px;
@@ -414,6 +430,9 @@ h1 {
         font-size: 18px;
         line-height: 138.6%;
         text-transform: uppercase;
+    }
+    .main__section4_button:hover {
+        box-shadow: 0 0 2px 2px white, 0 0 4px 6px rgba(227, 184, 115, 0.8);
     }
 
 .main__section5 {
@@ -518,6 +537,12 @@ h1 {
         align-items: flex-end;
         justify-content: flex-end;
 
+    }
+    .main__section5_block_form_div_input_button_button:hover {
+        box-shadow: 0 0 2px 2px white, 0 0 4px 6px rgba(227, 184, 115, 0.8);
+    }
+    .main__section8_form_button_button:hover {
+        box-shadow: 0 0 2px 2px white, 0 0 4px 6px rgba(227, 184, 115, 0.8);
     }
     .main__section5_block_form_div_input_button_button,
     .main__section8_form_button_button {
@@ -851,6 +876,9 @@ h1 {
             background: #E3B873;
             box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.20);
             cursor: pointer;
+        }
+        .footer__nav_tel_button:hover {
+            box-shadow: 0 0 2px 2px white, 0 0 4px 6px rgba(227, 184, 115, 0.8);
         }
 
 @media (max-width: 768px) {
