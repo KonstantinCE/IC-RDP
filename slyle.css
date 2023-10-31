@@ -332,10 +332,12 @@ h1 {
         border-bottom: 1px solid rgba(54, 54, 54, 0.30);
     }
     .main__section3_name_form {
+        width: 231px;
         border: 0;
+        outline: none;
         padding: 6.5px 0 6.5px 0;
         font-size: 14px;
-        line-height: 163.68%;
+        
     }
     .main__section3_name_form::placeholder {
         color: #363636;
@@ -517,6 +519,7 @@ h1 {
         width: 408px;
         height: 28px;
         border: 0;
+        outline: none;
         background: none;
     }
     .main__section5_block_form_div_input_input::placeholder {
@@ -774,6 +777,7 @@ h1 {
     .main__section8_form_question_question_input {
         width: auto;
         border: 0;
+        outline: none;
         background: none;
     }
     .main__section8_form_input_name_name,
